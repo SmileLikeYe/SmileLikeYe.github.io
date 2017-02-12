@@ -1,8 +1,7 @@
-_config.yml
+.DS_Store
+Thumbs.db
 db.json
-node_modules
-package.json
-public
-scaffolds
-source
-themes
+*.log
+node_modules/
+public/
+.deploy*/
