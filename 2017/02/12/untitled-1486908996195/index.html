@@ -7,7 +7,7 @@
 <head>
   <meta charset="utf-8">
   
-  <title>Hexo + Github Pages 搭建博客且 实现不同设备上同时写作 | Hexo</title>
+  <title>Hexo + Github Pages 搭建博客 且 不同设备上同步写作 | Hexo</title>
 
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
@@ -15,16 +15,60 @@
     <meta name="keywords" content="forsigner,前端,设计,Hexo主题,前端开发,用户体验,设计,frontend,design,nodejs,JavaScript,python,oc,swift，小星子，日记，德国,python" />
   
 
-  <meta name="description" content="温柔而又力量">
+  <meta name="description" content="安装为什么选择Github Pages + Hexo
+穷(githubpages 免费，且送300M的空间)
+还算好用（写完上传就两步，多插件）
+颜值丰富多变（可以自己设置别人弄好的主题）你需要准备什么
+一台 mac
+一个 github 账号
+node.js
+homebrew
+hexo步骤分解
+创建Githubpages
+安装node.js
+安装homebrew
+安装hexo
+创建本地hexo
+绑">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Hexo + Github Pages 搭建博客且 实现不同设备上同时写作">
+<meta property="og:title" content="Hexo + Github Pages 搭建博客 且 不同设备上同步写作">
 <meta property="og:url" content="http://yoursite.com/2017/02/12/untitled-1486908996195/index.html">
 <meta property="og:site_name" content="Hexo">
-<meta property="og:description" content="温柔而又力量">
-<meta property="og:updated_time" content="2017-02-12T14:26:18.000Z">
+<meta property="og:description" content="安装为什么选择Github Pages + Hexo
+穷(githubpages 免费，且送300M的空间)
+还算好用（写完上传就两步，多插件）
+颜值丰富多变（可以自己设置别人弄好的主题）你需要准备什么
+一台 mac
+一个 github 账号
+node.js
+homebrew
+hexo步骤分解
+创建Githubpages
+安装node.js
+安装homebrew
+安装hexo
+创建本地hexo
+绑">
+<meta property="og:image" content="http://img.blog.csdn.net/20170212232501483?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvTGluX1Rpbmc=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast">
+<meta property="og:updated_time" content="2017-02-12T15:48:56.000Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Hexo + Github Pages 搭建博客且 实现不同设备上同时写作">
-<meta name="twitter:description" content="温柔而又力量">
+<meta name="twitter:title" content="Hexo + Github Pages 搭建博客 且 不同设备上同步写作">
+<meta name="twitter:description" content="安装为什么选择Github Pages + Hexo
+穷(githubpages 免费，且送300M的空间)
+还算好用（写完上传就两步，多插件）
+颜值丰富多变（可以自己设置别人弄好的主题）你需要准备什么
+一台 mac
+一个 github 账号
+node.js
+homebrew
+hexo步骤分解
+创建Githubpages
+安装node.js
+安装homebrew
+安装hexo
+创建本地hexo
+绑">
+<meta name="twitter:image" content="http://img.blog.csdn.net/20170212232501483?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvTGluX1Rpbmc=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast">
 
   
 
@@ -148,12 +192,17 @@
 </div>
 
 
+  <div id="toc" class="toc-article">
+    <strong class="toc-title">文章目录</strong>
+    <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#安装"><span class="toc-text">安装</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#为什么选择Github-Pages-Hexo"><span class="toc-text">为什么选择Github Pages + Hexo</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#你需要准备什么"><span class="toc-text">你需要准备什么</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#步骤分解"><span class="toc-text">步骤分解</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#多设备上同步使用"><span class="toc-text">多设备上同步使用</span></a></li></ol></li></ol></li></ol></li></ol>
+  </div>
+
 
 
 <div class="content content-post CENTER">
    <article id="post-untitled-1486908996195" class="article article-type-post" itemprop="blogPost">
   <header class="article-header">
-    <h1 class="post-title">Hexo + Github Pages 搭建博客且 实现不同设备上同时写作</h1>
+    <h1 class="post-title">Hexo + Github Pages 搭建博客 且 不同设备上同步写作</h1>
 
     <div class="article-meta">
       <span>
@@ -178,7 +227,31 @@
 
   <div class="article-content">
     
-      
+      <h1 id="安装"><a href="#安装" class="headerlink" title="安装"></a>安装</h1><h4 id="为什么选择Github-Pages-Hexo"><a href="#为什么选择Github-Pages-Hexo" class="headerlink" title="为什么选择Github Pages + Hexo"></a>为什么选择Github Pages + Hexo</h4><ul>
+<li>穷(githubpages 免费，且送300M的空间)</li>
+<li>还算好用（写完上传就两步，多插件）</li>
+<li>颜值丰富多变（可以自己设置别人弄好的主题）<h4 id="你需要准备什么"><a href="#你需要准备什么" class="headerlink" title="你需要准备什么"></a>你需要准备什么</h4></li>
+<li>一台 mac</li>
+<li>一个 github 账号</li>
+<li>node.js</li>
+<li>homebrew</li>
+<li>hexo<h4 id="步骤分解"><a href="#步骤分解" class="headerlink" title="步骤分解"></a>步骤分解</h4><ol>
+<li>创建Githubpages</li>
+<li>安装node.js</li>
+<li>安装homebrew</li>
+<li>安装hexo</li>
+<li>创建本地hexo</li>
+<li>绑定域名<br>是不是没有感觉被骗了，以上这些很多文章已经讲过，这里就不在赘述，请参考：<a href="http://www.jianshu.com/p/fd878edb95e7" target="_blank" rel="external">MAC 上 github + hexo 搭建博客教程</a></li>
+</ol>
+</li>
+</ul>
+<hr>
+<h4 id="多设备上同步使用"><a href="#多设备上同步使用" class="headerlink" title="多设备上同步使用"></a>多设备上同步使用</h4><p>其实一般一台机器就够了，不过有些人有时候一台没在身边，这里要先明白hexo的运行原理。<br>正常的hexo项目目录结构如下：<br><img src="http://img.blog.csdn.net/20170212232501483?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvTGluX1Rpbmc=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast" alt="目录结构"></p>
+<p>而在我们的gihubpages.username.io的git仓库里存储的就是public下面所有的内容，这是hexo生成的我们常见的网页运行的所有资源文件，</p>
+<p>而Github Pages就是通过访问这些资源来生成我们的博客（网页）。<br><strong>所以我们每次更新博客就是更新public文件下的内容</strong>。</p>
+<p>所以要想实现不同设备上同步写作，就是要不同的设备上都能更新到public文件下。</p>
+<p>所以理解以上后，剩下就是创建两个分支，一个保存hexo的所有文件， 一个就是生成的网页。参考<a href="http://crazymilk.github.io/2015/12/28/GitHub-Pages-Hexo%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/#more" target="_blank" rel="external">hexo博客同步</a><br>不过他里面有个坑：在创建hexo分支8步操作里：<br>“前四步的目的是，在github上建立一个新的repo，并且把目录同步到本地（这时同步到本地的文件夹可能只有一个readme.md，或者是个空文件夹，但是有一个隐藏的.git文件夹）。<br>执行第五步的时候，Hexo会生成一个新的.git，并且覆盖了上文提到的.git…这会导致没法push到hexo分支…正确的做法是，在hexo init前复制.git在完成hexo init后再黏贴回来覆盖新生成的.git…剩下的就能完成push hexo了…”</p>
+
     
   </div>
 </article>
