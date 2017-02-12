@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+
+
+  <html class="light page-home">
+
+
+<head>
+  <meta charset="utf-8">
+  
+  <title>translation tool | Hexo</title>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+  
+    <meta name="keywords" content="forsigner,前端,设计,Hexo主题,前端开发,用户体验,设计,frontend,design,nodejs,JavaScript,python,oc,swift，小星子，日记，德国" />
+  
+
+  <meta name="description" content="翻译工具的使用应用场景公司做翻译，因为接受的统一渠道都是iOS格式的翻译文件。翻译出来都是iOS格式文件。  
+作用描述
+For Android: 
+
+
+将iOS格式的翻译文件转成Android格式的xml文件。
+补充缺失的语言翻译。
+将一些翻译出来的结果里面的 的引号“ 去掉
+
+
+For iOS:
+
+
+补充缺失的语言翻译。
+将一些翻译出来的结果里面的 的引号“ 去掉
+
+代码地址这里并不打算上传到">
+<meta property="og:type" content="article">
+<meta property="og:title" content="translation tool">
+<meta property="og:url" content="http://yoursite.com/2017/02/12/untitled-1486901457220/index.html">
+<meta property="og:site_name" content="Hexo">
+<meta property="og:description" content="翻译工具的使用应用场景公司做翻译，因为接受的统一渠道都是iOS格式的翻译文件。翻译出来都是iOS格式文件。  
+作用描述
+For Android: 
+
+
+将iOS格式的翻译文件转成Android格式的xml文件。
+补充缺失的语言翻译。
+将一些翻译出来的结果里面的 的引号“ 去掉
+
+
+For iOS:
+
+
+补充缺失的语言翻译。
+将一些翻译出来的结果里面的 的引号“ 去掉
+
+代码地址这里并不打算上传到">
+<meta property="og:updated_time" content="2017-02-12T12:22:18.000Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="translation tool">
+<meta name="twitter:description" content="翻译工具的使用应用场景公司做翻译，因为接受的统一渠道都是iOS格式的翻译文件。翻译出来都是iOS格式文件。  
+作用描述
+For Android: 
+
+
+将iOS格式的翻译文件转成Android格式的xml文件。
+补充缺失的语言翻译。
+将一些翻译出来的结果里面的 的引号“ 去掉
+
+
+For iOS:
+
+
+补充缺失的语言翻译。
+将一些翻译出来的结果里面的 的引号“ 去掉
+
+代码地址这里并不打算上传到">
+
+  
+
+  
+    <link rel="icon" href="/favicon.ico">
+  
+
+  <link href="/css/styles.css?v=32204ee7" rel="stylesheet">
+
+
+  
+    <link rel="stylesheet" href="/css/personal-style.css">
+  
+
+  
+
+  
+  <script type="text/javascript">
+    var _hmt = _hmt || [];
+    (function() {
+      var hm = document.createElement("script");
+      hm.src = "//hm.baidu.com/hm.js?57e94d016e201fba3603a8a2b0263af0";
+      var s = document.getElementsByTagName("script")[0];
+      s.parentNode.insertBefore(hm, s);
+    })();
+  </script>
+
+
+</head>
+
+<body>
+
+  
+    <span id="toolbox-mobile" class="toolbox-mobile">盒子</span>
+  
+
+  <div class="post-header CENTER">
+   
+  <div class="toolbox">
+    <a class="toolbox-entry" href="/">
+      <span class="toolbox-entry-text">盒子</span>
+      <i class="icon-angle-down"></i>
+      <i class="icon-home"></i>
+    </a>
+    <ul class="list-toolbox">
+      
+        <li class="item-toolbox">
+          <a
+            class="CIRCLE"
+            href="/archives/"
+            target="_self"
+            >
+            博客
+          </a>
+        </li>
+      
+        <li class="item-toolbox">
+          <a
+            class="CIRCLE"
+            href="/category/"
+            target="_self"
+            >
+            分类
+          </a>
+        </li>
+      
+        <li class="item-toolbox">
+          <a
+            class="CIRCLE"
+            href="/tag/"
+            target="_self"
+            >
+            标签
+          </a>
+        </li>
+      
+        <li class="item-toolbox">
+          <a
+            class="CIRCLE"
+            href="/link/"
+            target="_self"
+            >
+            友链
+          </a>
+        </li>
+      
+        <li class="item-toolbox">
+          <a
+            class="CIRCLE"
+            href="/about/"
+            target="_self"
+            >
+            关于
+          </a>
+        </li>
+      
+        <li class="item-toolbox">
+          <a
+            class="CIRCLE"
+            href="/atom.xml"
+            target="_blank"
+            >
+            RSS
+          </a>
+        </li>
+      
+        <li class="item-toolbox">
+          <a
+            class="CIRCLE"
+            href="/search/"
+            target="_self"
+            >
+            搜索
+          </a>
+        </li>
+      
+    </ul>
+  </div>
+
+
+</div>
+
+
+  <div id="toc" class="toc-article">
+    <strong class="toc-title">文章目录</strong>
+    <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#翻译工具的使用"><span class="toc-text">翻译工具的使用</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#应用场景"><span class="toc-text">应用场景</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#作用描述"><span class="toc-text">作用描述</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#代码地址"><span class="toc-text">代码地址</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#使用方法"><span class="toc-text">使用方法</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#参数调整"><span class="toc-text">参数调整</span></a></li></ol></li></ol></li></ol>
+  </div>
+
+
+
+<div class="content content-post CENTER">
+   <article id="post-untitled-1486901457220" class="article article-type-post" itemprop="blogPost">
+  <header class="article-header">
+    <h1 class="post-title">translation tool</h1>
+
+    <div class="article-meta">
+      <span>
+        <i class="icon-calendar"></i>
+        <span>2017.02.12</span>
+      </span>
+
+      
+        <span class="article-author">
+          <i class="icon-user"></i>
+          <span>Smile</span>
+        </span>
+      
+
+      
+
+
+      
+
+    </div>
+  </header>
+
+  <div class="article-content">
+    
+      <h1 id="翻译工具的使用"><a href="#翻译工具的使用" class="headerlink" title="翻译工具的使用"></a>翻译工具的使用</h1><h3 id="应用场景"><a href="#应用场景" class="headerlink" title="应用场景"></a>应用场景</h3><p>公司做翻译，因为接受的统一渠道都是iOS格式的翻译文件。翻译出来都是iOS格式文件。  </p>
+<h3 id="作用描述"><a href="#作用描述" class="headerlink" title="作用描述"></a>作用描述</h3><ul>
+<li>For Android: </li>
+</ul>
+<ol>
+<li>将iOS格式的翻译文件转成Android格式的xml文件。</li>
+<li>补充缺失的语言翻译。</li>
+<li>将一些翻译出来的结果里面的 的引号“ 去掉</li>
+</ol>
+<ul>
+<li>For iOS:</li>
+</ul>
+<ol>
+<li>补充缺失的语言翻译。</li>
+<li>将一些翻译出来的结果里面的 的引号“ 去掉</li>
+</ol>
+<h3 id="代码地址"><a href="#代码地址" class="headerlink" title="代码地址"></a>代码地址</h3><p>这里并不打算上传到PIP上去，这里采用原始代码共享的功能，代码地址：</p>
+<h3 id="使用方法"><a href="#使用方法" class="headerlink" title="使用方法"></a>使用方法</h3><p>将translaiton.py下载并放置到对应翻译文件下面，直接运行就行。</p>
+<h3 id="参数调整"><a href="#参数调整" class="headerlink" title="参数调整"></a>参数调整</h3><p>translation里面有个relation的字典序变量，这里定义的格式：<br>key ： value =&gt; target file : origal file<br>可以根据自己需要调整增减。</p>
+
+    
+  </div>
+</article>
+
+</div>
+
+
+  <a id="backTop" class="back-top">
+    <i class="icon-angle-up"></i>
+  </a>
+
+
+
+
+  <div class="modal" id="modal">
+  <span id="cover" class="cover hide"></span>
+  <div id="modal-dialog" class="modal-dialog hide-dialog">
+    <div class="modal-header">
+      <span id="close" class="btn-close">关闭</span>
+    </div>
+    <hr>
+    <div class="modal-body">
+      <ul class="list-toolbox">
+        
+          <li class="item-toolbox">
+            <a
+              class="CIRCLE"
+              href="/archives/"
+              target="_self"
+              >
+              博客
+            </a>
+          </li>
+        
+          <li class="item-toolbox">
+            <a
+              class="CIRCLE"
+              href="/category/"
+              target="_self"
+              >
+              分类
+            </a>
+          </li>
+        
+          <li class="item-toolbox">
+            <a
+              class="CIRCLE"
+              href="/tag/"
+              target="_self"
+              >
+              标签
+            </a>
+          </li>
+        
+          <li class="item-toolbox">
+            <a
+              class="CIRCLE"
+              href="/link/"
+              target="_self"
+              >
+              友链
+            </a>
+          </li>
+        
+          <li class="item-toolbox">
+            <a
+              class="CIRCLE"
+              href="/about/"
+              target="_self"
+              >
+              关于
+            </a>
+          </li>
+        
+          <li class="item-toolbox">
+            <a
+              class="CIRCLE"
+              href="/atom.xml"
+              target="_blank"
+              >
+              RSS
+            </a>
+          </li>
+        
+          <li class="item-toolbox">
+            <a
+              class="CIRCLE"
+              href="/search/"
+              target="_self"
+              >
+              搜索
+            </a>
+          </li>
+        
+      </ul>
+
+    </div>
+  </div>
+</div>
+
+
+
+  
+      <div class="fexo-comments comments-post">
+    
+  <section class="disqus-comments">
+    <div id="disqus_thread">
+      <noscript>Please enable JavaScript to view the <a href="//disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+    </div>
+  </section>
+
+  <script>
+    var disqus_shortname = 'Smile';
+    
+    var disqus_url = 'http://yoursite.com/2017/02/12/untitled-1486901457220/';
+    
+    (function(){
+      var dsq = document.createElement('script');
+      dsq.type = 'text/javascript';
+      dsq.async = true;
+      dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+  </script>
+
+  <script id="dsq-count-scr" src="//Smile.disqus.com/count.js" async></script>
+
+
+
+    
+
+
+
+
+  </div>
+
+  
+
+  <script type="text/javascript">
+  function loadScript(url, callback) {
+    var script = document.createElement('script')
+    script.type = 'text/javascript';
+
+    if (script.readyState) { //IE
+      script.onreadystatechange = function() {
+        if (script.readyState == 'loaded' ||
+          script.readyState == 'complete') {
+          script.onreadystatechange = null;
+          callback();
+        }
+      };
+    } else { //Others
+      script.onload = function() {
+        callback();
+      };
+    }
+
+    script.src = url;
+    document.getElementsByTagName('head')[0].appendChild(script);
+  }
+
+  window.onload = function() {
+    loadScript('/js/bundle.js?235687', function() {
+      // load success
+    });
+  }
+</script>
+
+</body>
+</html>
