@@ -7,7 +7,7 @@
 <head>
   <meta charset="utf-8">
   
-  <title>【机器学习】Random Forest(随机森林)入门和实战 | Hexo</title>
+  <title>【机器学习】Random Forest(随机森林)入门和实战（一）先写个项目 | Hexo</title>
 
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
@@ -26,7 +26,7 @@ jupyter notebook实践项目
 项目描述简单说下就是train.csv训练数据里面是42000条手写数字图片的数据。
 train.cs">
 <meta property="og:type" content="article">
-<meta property="og:title" content="【机器学习】Random Forest(随机森林)入门和实战">
+<meta property="og:title" content="【机器学习】Random Forest(随机森林)入门和实战（一）先写个项目">
 <meta property="og:url" content="http://yoursite.com/2017/02/14/untitled-1487001905526/index.html">
 <meta property="og:site_name" content="Hexo">
 <meta property="og:description" content="准备条件
@@ -39,9 +39,9 @@ jupyter notebook实践项目
 项目地址Kaggle上面的一个项目：digit-recognizer
 项目描述简单说下就是train.csv训练数据里面是42000条手写数字图片的数据。
 train.cs">
-<meta property="og:updated_time" content="2017-02-13T16:06:24.000Z">
+<meta property="og:updated_time" content="2017-02-14T14:41:29.000Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="【机器学习】Random Forest(随机森林)入门和实战">
+<meta name="twitter:title" content="【机器学习】Random Forest(随机森林)入门和实战（一）先写个项目">
 <meta name="twitter:description" content="准备条件
 seaborn: 一个可视化工具，不会用参见：数据可视化工具seaborn
 matplotlib.pyplot: 也是一个可视化工具
@@ -90,102 +90,14 @@ train.cs">
 
   <div class="post-header CENTER">
    
-  <div class="toolbox">
-    <a class="toolbox-entry" href="/">
-      <span class="toolbox-entry-text">盒子</span>
-      <i class="icon-angle-down"></i>
-      <i class="icon-home"></i>
-    </a>
-    <ul class="list-toolbox">
-      
-        <li class="item-toolbox">
-          <a
-            class="CIRCLE"
-            href="/archives/"
-            target="_self"
-            >
-            博客
-          </a>
-        </li>
-      
-        <li class="item-toolbox">
-          <a
-            class="CIRCLE"
-            href="/category/"
-            target="_self"
-            >
-            分类
-          </a>
-        </li>
-      
-        <li class="item-toolbox">
-          <a
-            class="CIRCLE"
-            href="/tag/"
-            target="_self"
-            >
-            标签
-          </a>
-        </li>
-      
-        <li class="item-toolbox">
-          <a
-            class="CIRCLE"
-            href="/link/"
-            target="_self"
-            >
-            友链
-          </a>
-        </li>
-      
-        <li class="item-toolbox">
-          <a
-            class="CIRCLE"
-            href="/about/"
-            target="_self"
-            >
-            关于
-          </a>
-        </li>
-      
-        <li class="item-toolbox">
-          <a
-            class="CIRCLE"
-            href="/atom.xml"
-            target="_blank"
-            >
-            RSS
-          </a>
-        </li>
-      
-        <li class="item-toolbox">
-          <a
-            class="CIRCLE"
-            href="/search/"
-            target="_self"
-            >
-            搜索
-          </a>
-        </li>
-      
-    </ul>
-  </div>
-
-
 </div>
-
-
-  <div id="toc" class="toc-article">
-    <strong class="toc-title">文章目录</strong>
-    <ol class="toc"><li class="toc-item toc-level-4"><a class="toc-link" href="#准备条件"><span class="toc-text">准备条件</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#实践项目"><span class="toc-text">实践项目</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#总结"><span class="toc-text">总结</span></a></li></ol>
-  </div>
 
 
 
 <div class="content content-post CENTER">
    <article id="post-untitled-1487001905526" class="article article-type-post" itemprop="blogPost">
   <header class="article-header">
-    <h1 class="post-title">【机器学习】Random Forest(随机森林)入门和实战</h1>
+    <h1 class="post-title">【机器学习】Random Forest(随机森林)入门和实战（一）先写个项目</h1>
 
     <div class="article-meta">
       <span>
@@ -201,7 +113,6 @@ train.cs">
       
 
       
-
 
       
 
@@ -228,18 +139,23 @@ train.cs">
 <li>项目思路<br>使用随机森林算法，定义为100tree, 训练模型时，用train.csv的前2/3行数据（28000行）作为训练数据，后1/3行数据（14000行）作为测试数据。</li>
 <li>项目代码<br><a href="https://github.com/SmileLikeYe/ML/tree/master/RF_RandomForest" target="_blank" rel="external">SmileLikeYe-RandomForest</a></li>
 </ul>
-<h4 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h4><p>使用总结和基础概念待补充</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div><div class="line">27</div><div class="line">28</div><div class="line">29</div><div class="line">30</div><div class="line">31</div><div class="line">32</div><div class="line">33</div><div class="line">34</div><div class="line">35</div><div class="line">36</div><div class="line">37</div><div class="line">38</div><div class="line">39</div><div class="line">40</div><div class="line">41</div><div class="line">42</div><div class="line">43</div><div class="line">44</div><div class="line">45</div><div class="line">46</div><div class="line">47</div><div class="line">48</div><div class="line">49</div><div class="line">50</div><div class="line">51</div><div class="line">52</div><div class="line">53</div><div class="line">54</div><div class="line">55</div><div class="line">56</div><div class="line">57</div><div class="line">58</div><div class="line">59</div><div class="line">60</div><div class="line">61</div><div class="line">62</div><div class="line">63</div><div class="line">64</div><div class="line">65</div><div class="line">66</div><div class="line">67</div><div class="line">68</div><div class="line">69</div><div class="line">70</div><div class="line">71</div><div class="line">72</div><div class="line">73</div><div class="line">74</div><div class="line">75</div><div class="line">76</div><div class="line">77</div><div class="line">78</div><div class="line">79</div><div class="line">80</div><div class="line">81</div><div class="line">82</div><div class="line">83</div><div class="line">84</div><div class="line">85</div></pre></td><td class="code"><pre><div class="line">#!/usr/bin/env python</div><div class="line"># coding=utf8</div><div class="line"></div><div class="line">import sys</div><div class="line">reload(sys)</div><div class="line">sys.setdefaultencoding(&apos;utf8&apos;)</div><div class="line"></div><div class="line">&apos;&apos;&apos;</div><div class="line">Competition URL: https://www.kaggle.com/c/digit-recognizer</div><div class="line">Solution:  Random Forest</div><div class="line">&apos;&apos;&apos;</div><div class="line"></div><div class="line"></div><div class="line"># 引入需要的包包</div><div class="line"># 数据处理的常用包包</div><div class="line">import numpy as np</div><div class="line">import pandas as pd</div><div class="line"></div><div class="line"># 随机森林的包包</div><div class="line">import sklearn as skl</div><div class="line">from sklearn.ensemble import RandomForestClassifier</div><div class="line"></div><div class="line"># 画图的包包</div><div class="line">import matplotlib.pyplot as plt</div><div class="line">import seaborn as sns</div><div class="line">sns.set(color_codes=True)</div><div class="line"></div><div class="line"># 读取数据（请先去 https://www.kaggle.com/c/digit-recognizer/data 上下载数据）</div><div class="line"># 读取成DataFrame的数据</div><div class="line">train_df = pd.read_csv(&apos;train.csv&apos;)</div><div class="line"># 将DataFrame的数据转换成Array</div><div class="line">train_data = train_df.values</div><div class="line"></div><div class="line">test_df = pd.read_csv(&apos;test.csv&apos;)</div><div class="line">test_data = test_df.values</div><div class="line"></div><div class="line">print train_df.head()</div><div class="line">print train_data</div><div class="line"></div><div class="line"># 画图</div><div class="line">plt.figure(figsize=(12,8))</div><div class="line">sns.countplot(x=&apos;label&apos;, data=train_df)</div><div class="line">plt.title(&apos;Distribution of Numbers&apos;)</div><div class="line">plt.xlabel(&apos;Numbers&apos;);</div><div class="line"></div><div class="line"># 2/3的train_data作为训练数据，1/3的train_data作为测试数据来训练模型</div><div class="line">num_features = train_data.shape[0] # 拿到train_data的行数，也就是所有数据的个数作为特征值</div><div class="line">print(&quot;Number of all features: \t\t&quot;, num_features)</div><div class="line">split = int(num_features * 2/3) # 这里是取2/3行也就是前28000行作为训练 后1/3也就是14000作为测试</div><div class="line"></div><div class="line">train = train_data[:split] # 取出前28000行作为训练数据</div><div class="line">test = train_data[split:] # 取出后14000行作为测试数据</div><div class="line"></div><div class="line">print(&quot;Number of features used for training: \t&quot;, len(train),</div><div class="line">      &quot;\nNumber of features used for testing: \t&quot;, len(test))</div><div class="line"></div><div class="line"># 开始使用随机森林分类器</div><div class="line">clf = RandomForestClassifier(n_estimators=100) # 定义决策树的个数为100</div><div class="line"></div><div class="line"># 开始训练，训练的X数据格式为[[]]，训练的y值为[]也就是经过ravel后的数据</div><div class="line"># 如果你问我ravel()的作用是什么，就是不管什么数据格式的数据都转成一个一维的array，这样每个元素都是一个平等且顺序的位置</div><div class="line">model = clf.fit(train[:,1:], train[:,0].ravel())</div><div class="line"></div><div class="line"># 然后预测</div><div class="line">output = model.predict(test[:,1:])</div><div class="line"></div><div class="line"># 计算准确度</div><div class="line">acc = np.mean(output == test[:,0].ravel()) *100</div><div class="line">print(&quot;The accuracy of the pure RandomForest classifier is: \t&quot;, acc, &quot;%&quot;)</div><div class="line"></div><div class="line"># 利用</div><div class="line">clf = RandomForestClassifier(n_estimators=100) # 100 trees</div><div class="line"></div><div class="line"># 用全部训练数据来做训练</div><div class="line">target = train_data[:,0].ravel()</div><div class="line">train = train_data[:,1:]</div><div class="line">model = clf.fit(train, target)</div><div class="line"></div><div class="line"></div><div class="line"># 用测试集数据来预测最终结果</div><div class="line">output = model.predict(test_data)</div><div class="line">print output</div><div class="line"></div><div class="line"># 输出预测结果</div><div class="line">pd.DataFrame(&#123;&quot;ImageId&quot;: range(1, len(output)+1), &quot;Label&quot;: output&#125;).to_csv(&apos;out.csv&apos;, index=False, header=True)</div></pre></td></tr></table></figure>
+<p>最后 提交上去的准确路为96.793% 那个运用这个不知名国外同学排到了前五。</p>
+<h2 id="参考资料"><a href="#参考资料" class="headerlink" title="参考资料"></a>参考资料</h2><ul>
+<li><a href="https://github.com/mwaskom/seaborn" target="_blank" rel="external">seaborn-Github</a></li>
+<li><a href="http://scikit-learn.org/stable/modules/generated/sklearn.ensemble.RandomForestClassifier.html" target="_blank" rel="external">3.2.4.3.1. sklearn.ensemble.RandomForestClassifier</a></li>
+<li><a href="http://pandas.pydata.org/" target="_blank" rel="external">pandas</a></li>
+<li><a href="http://www.numpy.org/" target="_blank" rel="external">numpy</a></li>
+<li><a href="http://jupyter.org/" target="_blank" rel="external">jupyer</a><h2 id="我的相关文章"><a href="#我的相关文章" class="headerlink" title="我的相关文章"></a>我的相关文章</h2></li>
+<li><a href="http://blog.csdn.net/lin_ting/article/details/55097113" target="_blank" rel="external">【机器学习】Random Forest(随机森林)入门和实战（二）它是个什么东西（What）</a></li>
+<li><a href="http://blog.csdn.net/lin_ting/article/details/55097766" target="_blank" rel="external">【机器学习】Random Forest(随机森林)入门和实战（三）什么时候使用</a></li>
+</ul>
 
     
   </div>
 </article>
 
 </div>
-
-
-  <a id="backTop" class="back-top">
-    <i class="icon-angle-up"></i>
-  </a>
 
 
 
