@@ -50,7 +50,7 @@ hexo步骤分解
 创建本地hexo
 绑">
 <meta property="og:image" content="http://img.blog.csdn.net/20170212232501483?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvTGluX1Rpbmc=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast">
-<meta property="og:updated_time" content="2017-02-13T16:05:03.000Z">
+<meta property="og:updated_time" content="2017-02-14T15:40:00.000Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Hexo + Github Pages 搭建博客 且 不同设备上同步写作">
 <meta name="twitter:description" content="安装为什么选择Github Pages + Hexo
@@ -194,7 +194,7 @@ hexo步骤分解
 
   <div id="toc" class="toc-article">
     <strong class="toc-title">文章目录</strong>
-    <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#安装"><span class="toc-text">安装</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#为什么选择Github-Pages-Hexo"><span class="toc-text">为什么选择Github Pages + Hexo</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#你需要准备什么"><span class="toc-text">你需要准备什么</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#步骤分解"><span class="toc-text">步骤分解</span></a></li></ol></li></ol></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#不同设备上同步使用"><span class="toc-text">不同设备上同步使用</span></a></li></ol>
+    <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#安装"><span class="toc-text">安装</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#为什么选择Github-Pages-Hexo"><span class="toc-text">为什么选择Github Pages + Hexo</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#你需要准备什么"><span class="toc-text">你需要准备什么</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#步骤分解"><span class="toc-text">步骤分解</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#改成多说评论"><span class="toc-text">改成多说评论</span></a></li></ol></li></ol></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#不同设备上同步使用"><span class="toc-text">不同设备上同步使用</span></a></li></ol>
   </div>
 
 
@@ -245,6 +245,7 @@ hexo步骤分解
 </ol>
 </li>
 </ul>
+<h4 id="改成多说评论"><a href="#改成多说评论" class="headerlink" title="改成多说评论"></a>改成多说评论</h4><p>将站点下的_config.yaml和主题下面的_config.yaml中 disqus_shortname: smilhu 改成 duoshuo_shortname: smilehu 其中smilehu就是<a href="http://duoshuo.com/" target="_blank" rel="external">duoshuo</a>官网建站时你填入的那个域名缩写，也就是 xxx.duoshou.com 中的xxx</p>
 <hr>
 <h1 id="不同设备上同步使用"><a href="#不同设备上同步使用" class="headerlink" title="不同设备上同步使用"></a>不同设备上同步使用</h1><p>其实一般一台机器就够了，不过有些人有时候一台没在身边，这里要先明白hexo的运行原理。<br>正常的hexo项目目录结构如下：<br><img src="http://img.blog.csdn.net/20170212232501483?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvTGluX1Rpbmc=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast" alt="目录结构"></p>
 <p>而在我们的gihubpages.username.io的git仓库里存储的就是public下面所有的内容，这是hexo生成的我们常见的网页运行的所有资源文件，</p>
