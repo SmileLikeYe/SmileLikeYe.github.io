@@ -3,7 +3,7 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
+title: Smile's House
 subtitle:
 description: 温柔而又力量
 author: Smile
@@ -80,3 +80,5 @@ admin:
     secret: hey hexo
     expire: 60*1
     # cors: http://localhost:3000
+
+duoshuo_shortname: smilehu
